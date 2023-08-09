@@ -5,7 +5,9 @@
 }
 
 html {
-  font-size: 55%;
+  font-size:59.3%;   /*  it is equal to 9.5px */
+                      /* 1 px =6.25% */
+  
 }
 
 body {
@@ -14,4 +16,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 255, 255);
+}
+@media(max-width:768px ){
+  html{
+font-size: 43.7%;
+  }
 }
