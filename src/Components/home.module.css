@@ -8,11 +8,9 @@
 .trans {
     display: flex;
     position: relative;
-
 }
 
 .trans button {
-
     cursor: pointer;
     width: 7rem;
     height: 100%;
@@ -21,8 +19,6 @@
     border: none;
     background: none;
     opacity: 80%;
-
-
 }
 
 .trans button:hover {
@@ -39,15 +35,11 @@
 .transbcwd {
     position: absolute;
     right: 95%;
-
 }
 
 .transimage {
     width: 100%;
-    transition: opacity ease-in-out .4s;
-
-
-
+    transition: opacity ease-in-out 0.4s;
 }
 
 .transimage img {
@@ -56,27 +48,18 @@
     overflow: scroll;
 
     scroll-behavior: smooth;
-    transition: scroll .3 ease-in-out;
-
-
-
-
-
+    transition: scroll 0.3 ease-in-out;
 }
 
 .help {
     width: fit-content;
     font-size: 1.8rem;
     position: sticky;
-    bottom:0%;
+    bottom: 0%;
     left: 88%;
     color: orangered;
     display: flex;
     opacity: 85%;
- 
-
-
-
 }
 
 .help input {
@@ -85,16 +68,13 @@
     border-radius: 1.5rem;
     border: none;
     width: 15rem;
-    box-shadow: .2rem .2rem 1rem rgb(0, 0, 0);
-
+    box-shadow: 0.2rem 0.2rem 1rem rgb(0, 0, 0);
 }
 
 .help h2 {
     position: relative;
     left: 80%;
-    top: .3rem;
-
-
+    top: 0.3rem;
 }
 
 .help:hover {
@@ -102,45 +82,35 @@
     cursor: pointer;
 }
 
-
-
-
 #bcg {
-background-image: url('/public/tea.jpg');
+    background-image: url("/public/images/tea.jpg");
     background-size: cover;
-
-
 }
 
 .main1 {
     width: fit-content;
     margin: 30rem 5rem;
     position: relative;
-
 }
 
 .main1 h2 {
     font-size: 5rem;
     color: rgb(157, 223, 15);
-   font-family: 'Borel', cursive;
-   
-   height: 5rem;
+    font-family: "Borel", cursive;
 
-
+    height: 5rem;
 }
 
 .main1 p {
     font-size: 4rem;
     color: rgb(25, 230, 162);
-    font-family: 'Borel', cursive;
-
+    font-family: "Borel", cursive;
 }
-.main1 img{
-    position:absolute;
+.main1 img {
+    position: absolute;
     width: 20rem;
     bottom: 25.3rem;
-    left: 0rem;
-    
+    left: -1rem;
 }
 
 .btn {
@@ -151,3 +121,20 @@ background-image: url('/public/tea.jpg');
     cursor: pointer;
     border-radius: 5rem;
 }
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-top: 8rem;
+        width: 103rem;
+   
+       
+
+    }
+    #bcg{
+        width: 100%;
+
+
+    }
+  
+
+}
+

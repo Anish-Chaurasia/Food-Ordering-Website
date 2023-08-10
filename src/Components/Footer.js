@@ -40,9 +40,10 @@ function Footer() {
 
       <div className={ftrstyle.item} id={ftrstyle.div3}>
         <div id={ftrstyle.logo}>
-          <img src='/logo.png' />
+          <img src='/images/logo.png' />
           <h3>FOOD HUB</h3></div>
         <div className={ftrstyle.help}>
+
           <h2 id={ftrstyle.srch} ><IoSearchSharp /></h2>
           <input id={ftrstyle.srchtext} type="text" placeholder=" Search for help" name="search" />
         </div>

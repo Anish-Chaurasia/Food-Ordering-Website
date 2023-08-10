@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <div className={styles.navContainer}>
             <div className={styles.logo}>
-                <NavLink to='/'> <img id={styles.logoimg} src="/logo.png" alt="logo" /></NavLink>
+                <NavLink to='/'> <img id={styles.logoimg} src="/images/logo.png" alt="logo" /></NavLink>
                 <h3>FOOD HUB</h3>
             </div>
 

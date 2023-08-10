@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import  gstyle from './gallery.module.css'
+import gstyle from './gallery.module.css'
 import Footer from './Footer'
 
 
@@ -9,7 +9,7 @@ function Gallery() {
 
     return (
         <div>
-            <Navbar/>
+            <Navbar />
 
             <div className={gstyle.container}>
 
@@ -31,7 +31,7 @@ function Gallery() {
                 </div>
 
             </div>
-            <Footer/>
+            <Footer />
         </div>
 
     )

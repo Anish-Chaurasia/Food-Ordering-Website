@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <div>
-thi sis abobejfkjs
+      thi sis abobejfkjs
     </div>
   )
 }
