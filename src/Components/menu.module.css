@@ -1,0 +1,43 @@
+.container {
+    margin-top: 6.3rem;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 12rem 6.5rem auto;
+    row-gap: 2rem;
+}
+.container img {
+    width: 50%;
+}
+.contItem {
+    /* border: 0.2rem solid; */
+}
+#text {
+    justify-self: center;
+    align-self: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: "Borel", cursive;
+    color: #eaca10;
+}
+#buttondiv {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0rem 0rem 0.2rem 0.3rem rgb(232, 234, 232);
+    position: relative;
+}
+#buttondiv button {
+    height: 3.2rem;
+    width: 9rem;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 2rem;
+    color: #eaca10;
+    box-shadow: 0.2rem .2rem .4rem rgb(178, 180, 177);
+     background-color: rgb(255, 255, 255);
+}
+#buttondiv button:hover {
+    position: relative;
+}
