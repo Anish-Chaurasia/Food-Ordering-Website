@@ -105,7 +105,7 @@ const data = [{
     category: 'Desert',
     price: 40,
     img: './images/menu_images/menu/icecream.jpg',
-    desc: " frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit, such as strawberries or peaches.",
+    desc: " frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit.",
 },
 
 ];
