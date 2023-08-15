@@ -55,8 +55,9 @@
     padding: 0.5rem;
     flex-wrap: wrap;
     row-gap: 6rem;
-    column-gap: 3.5rem;
     min-height: 50rem;
+    justify-content: space-evenly;
+    column-gap: 3rem;
 }
 .Menuitem {
     display: flex;
@@ -120,8 +121,6 @@
 #menu_button:hover {
     background-color: rgb(151, 238, 151);
     color: white;
-   
-
 }
 
 #menu_title {
