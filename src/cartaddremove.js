@@ -8,7 +8,15 @@ const cartaddremove=createSlice(
         reducers:{
             addcart:(state,action)=>
             {
-             return [...state, action.payload]
+                state.map((x) => {
+                    if (x.id === action.payload.id) {
+                        action.payload.quantity += x.quantity;
+                        const cartlist = state.filter((item) => item.id != x.id)
+                        state=[...cartlist]
+
+
+                    }})
+            return [...state, action.payload]
             },
              removecart: (state, action) => {
                 

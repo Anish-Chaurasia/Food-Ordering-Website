@@ -78,10 +78,10 @@
 .cartdiv {
  
     display: flex;
-    gap: 0.2rem;
+    
 }
 #cart {
-    font-size: 2.8rem;
+    font-size: 3rem;
     color: rgb(25, 189, 28);
 }
 .cartlogo {

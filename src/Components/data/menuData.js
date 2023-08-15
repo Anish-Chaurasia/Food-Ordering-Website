@@ -1,5 +1,6 @@
 const data = [{
 
+    id:1,
     title: 'Chole Bhature',
     category: 'Breakfast',
     price: 250,
@@ -7,7 +8,7 @@ const data = [{
     desc: "Chole bhature is a food dish popular in the Northern areas of the Indian subcontinent. It is a combination of chana masala (spicy white chickpeas) and bhatura/puri, a deep-fried bread made from maida.",
 },
 {
-
+    id: 2,
     title: 'Burger and Fries',
     category: 'Lunch',
     price: 1500,
@@ -16,7 +17,7 @@ const data = [{
 },
 
 {
-
+    id: 3,
     title: 'Barfi',
     category: 'Desert',
     price: 25,
@@ -25,7 +26,7 @@ const data = [{
 },
 
 {
-
+    id: 4,
     title: 'Mango Lassi',
     category: 'Shakes',
     price: 150,
@@ -34,7 +35,7 @@ const data = [{
 },
 
 {
-
+    id: 5,
     title: 'Country Delight',
     category: 'Breakfast',
     price: 200,
@@ -42,7 +43,7 @@ const data = [{
     desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
 },
 {
-
+    id: 6,
     title: 'Egg Burger',
     category: 'Lunch',
     price: 1200,
@@ -50,7 +51,7 @@ const data = [{
     desc: "Fried Egg Burger is a rich and flavor-packed cheeseburger with a yolky fried egg.",
 },
 {
-
+    id: 7,
     title: 'Oreo Dream',
     category: 'Shakes',
     price: 120,
@@ -58,7 +59,7 @@ const data = [{
     desc: "Real ice cream mixed with OREO Cookie Pieces and chocolate syrup into a thick and creamy shake, finished with whipped topping and a cherry.",
 },
 {
-
+    id: 8,
     title: 'Gulaab-Jaamun',
     category: 'Desert',
     price: 20,
@@ -66,7 +67,7 @@ const data = [{
     desc: " JamunGulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
 },
 {
-
+    id: 9,
     title: 'Chana Daal',
     category: 'Lunch',
     price: 350,
@@ -74,7 +75,7 @@ const data = [{
     desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
 },
 {
-
+    id: 10,
     title: 'Kunafa',
     category: 'Desert',
     price: 300,
@@ -82,7 +83,7 @@ const data = [{
     desc: "It has a crunchy exterior, with a gooey and cheese interior. It'll be really cheesy and stretchy when you break into it, drenched in a sweet sugar syrup. So basically it tastes like heaven.",
 },
 {
-
+    id: 11,
     title: 'American Classic',
     category: 'Lunch',
     price: 500,
@@ -90,7 +91,7 @@ const data = [{
     desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
 },
 {
-
+    id: 12,
     title: 'Punjabi Lassi',
     category: 'Shakes',
     price: 80,
@@ -100,7 +101,7 @@ const data = [{
 
 
 {
-
+    id: 13,
     title: 'Icecream',
     category: 'Desert',
     price: 40,

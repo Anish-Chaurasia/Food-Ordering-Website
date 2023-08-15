@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import mnustyl from "./menu.module.css"
 import data from './data/menuData';
-import { useDispatch,useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { addcart } from '../cartaddremove';
 
 
@@ -9,8 +9,8 @@ function Menu() {
     const uniqueitem = ["All", ...new Set(data.map(item => item.category))]
     const [menu, setMenu] = useState(data);
     const dispatch = useDispatch()
-    const obj=useSelector(state=>state.count)
-    console.log(obj)
+    const cartdata = useSelector(state => state.count)
+    console.log(cartdata)
     function handleMenu(val) {
         if (val === "All") {
             setMenu(data)
@@ -22,9 +22,8 @@ function Menu() {
 
 
     }
-    function handlecart(item)
-    {
-        dispatch(addcart({ title: item.title, img: item.img, price: item.price }))
+    function handlecart(item) {
+        dispatch(addcart({ id: item.id, title: item.title, img: item.img, price: item.price, quantity: 1 }))
         alert("added to cart")
     }
 
@@ -57,8 +56,16 @@ function Menu() {
                                 <div className={mnustyl.menu_inner_item} id={mnustyl.menu_title}  >{item.title}</div>
                                 <div className={mnustyl.menu_inner_item} id={mnustyl.menu_desc}>{item.desc}</div>
                                 <div className={mnustyl.price_button}>
+
                                     <p className={mnustyl.menu_inner_item} id={mnustyl.menu_price} >&#8377;{item.price}</p>
-                                    <button  className={mnustyl.menu_inner_item} id={mnustyl.menu_button} type="button" onClick={()=>handlecart(item)}>Add To Cart</button>
+                                    <h1 id={mnustyl.menu_price} >{cartdata.map((x) => {
+                                        if (item.id == x.id) {
+                                            return ` X ${x.quantity} Qty `
+
+                                        }
+                                    })}</h1>
+
+                                    <button className={mnustyl.menu_inner_item} id={mnustyl.menu_button} type="button" onClick={() => handlecart(item)}>Add To Cart</button>
                                 </div>
 
                             </div>
