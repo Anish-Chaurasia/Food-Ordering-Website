@@ -27,12 +27,12 @@ function Navbar() {
                     <li ><NavLink className={styles.btn} style={{ textDecoration: 'none' }} to="/menu">Menu</NavLink></li>
                     <li ><NavLink className={styles.btn} style={{ textDecoration: 'none' }} to="/about">About</NavLink></li>
                     <li ><NavLink className={styles.btn} style={{ textDecoration: 'none' }} to="/contact">Contact</NavLink></li>
-                    <li ><NavLink className={styles.btn} style={{ textDecoration: 'none' }} to="/gallery">Gallery</NavLink></li>
+                  
                     
                 </div>
             </ul>
             <div className={styles.cartdiv}>
-                <li className={styles.cartlogo} ><NavLink style={{ textDecoration: "none" }} id={styles.cart} to="/gallery"><IoCartOutline /></NavLink></li>
+                <li className={styles.cartlogo} ><NavLink style={{ textDecoration: "none" }} id={styles.cart} to="/cart"><IoCartOutline /></NavLink></li>
                 <p>{cart.length}</p></div>
         </div>
 

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 .container {
     margin-top: 6.2rem;
     display: grid;
@@ -95,36 +96,38 @@
 
 .main1 h2 {
     font-size: 5rem;
-    color: rgb(157, 223, 15);
-    font-family: "Borel", cursive;
-
+    color: #e89c0e;
+    font-family: "Yusei Magic", sans-serif;
     height: 5rem;
 }
 
 .main1 p {
     font-size: 4rem;
-    color: rgb(25, 230, 162);
-    font-family: "Borel", cursive;
+    color: #ff6219;
+    font-family: "Yusei Magic", sans-serif;
 }
 .main1 img {
     position: absolute;
     width: 17rem;
-    bottom: 25.3rem;
-    left: -1rem;
+    bottom: 23.1rem;
+    left: -1.6rem;
 }
 
 .btn {
     width: 20%;
     height: 4rem;
-    font-weight: bold;
-    font-size: large;
+    font-size: 1.9rem;
     cursor: pointer;
     border-radius: 5rem;
     border-style: none;
+    font-family: "Yusei Magic", sans-serif;
+    background-color: #e89c0e;
+    color: white;
 }
 .btn:hover {
-    background-color: rgb(151, 238, 151);
-    color: white;
+    background-color: rgb(144, 238, 144);
+    color: rgb(255, 255, 255);
+    font-size: 2.3rem;
 }
 @media only screen and (max-width: 768px) {
     .container {

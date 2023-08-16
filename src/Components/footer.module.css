@@ -7,10 +7,12 @@
     font-size: 1.8rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(208, 206, 210);
-    margin-top: 0.1rem;
+    background-color: white;
+    margin-top: 1.5rem;
     font-family: "Open Sans", sans-serif;
     color: rgb(73, 75, 74);
+    box-shadow: 1px 1px 3px #8a8888;
+    
 }
 
 #logo {
@@ -102,7 +104,8 @@
 #div2 {
     text-align: center;
     align-self: end;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+   
 }
 
 @media only screen and (max-width: 768px) {

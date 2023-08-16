@@ -35,7 +35,8 @@ function Footer() {
 
 
       </div>
-      <div className={ftrstyle.item} id={ftrstyle.div2}><p>&copy; Copyright 2023 FOOD HUB</p>
+      <div className={ftrstyle.item} id={ftrstyle.div2}><p>&copy; 2023 <strong>FOOD HUB</strong>  All rights reserved</p>
+        <p>Developed by <strong>Anish</strong></p>
       </div>
 
       <div className={ftrstyle.item} id={ftrstyle.div3}>

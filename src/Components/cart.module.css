@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+.container {
+    margin-top: 6.4rem;
+    min-height: 70rem;
+    font-family: "Yusei Magic", sans-serif;
+}
+.emptycart {
+    box-decoration-break: 0.1rem solid;
+    text-align: center;
+    margin: 0 auto;
+    width: 90rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 2rem;
+}
+
+.emptycart img {
+    width: 52rem;
+}
+
+.emptycart h1 {
+    font-size: 5rem;
+    line-height: 2rem;
+}
+.emptycart p {
+    font-size: 1.7rem;
+}
+.emptycart button {
+    border-style: none;
+    height: 4.5rem;
+    width: 11rem;
+    background-color: #eea811;
+    color: white;
+    font-family: "Yusei Magic", sans-serif;
+    border-radius: 5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2rem rgb(101, 99, 99);
+}
+
+.emptycart button:hover{
+   box-shadow: none;
+   font-size:1.7rem ;
+}

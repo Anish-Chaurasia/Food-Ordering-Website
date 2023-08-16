@@ -24,7 +24,7 @@ function Menu() {
     }
     function handlecart(item) {
         dispatch(addcart({ id: item.id, title: item.title, img: item.img, price: item.price, quantity: 1 }))
-        alert("added to cart")
+       
     }
 
 
@@ -65,7 +65,7 @@ function Menu() {
                                         }
                                     })}</h1>
 
-                                    <button className={mnustyl.menu_inner_item} id={mnustyl.menu_button} type="button" onClick={() => handlecart(item)}>Add To Cart</button>
+                                    <button className={mnustyl.menu_inner_item} id={mnustyl.menu_button} type="button" onClick={() => handlecart(item)}>&#43;Add</button>
                                 </div>
 
                             </div>

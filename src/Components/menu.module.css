@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Borel&family=Cookie&family=Dosis:wght@200&family=Edu+SA+Beginner:wght@400;500;600&family=Kaushan+Script&family=Marck+Script&family=Merriweather:wght@300;400&family=Parisienne&family=Playfair+Display&family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Borel&family=Cookie&family=Dosis:wght@200&family=Edu+SA+Beginner:wght@400;500;600&family=Kaushan+Script&family=Marck+Script&family=Merriweather:wght@300;400&family=Parisienne&family=Playfair+Display&family=Satisfy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Borel&family=Cookie&family=Dosis:wght@200&family=Edu+SA+Beginner:wght@400;500;600&family=Kaushan+Script&family=Marck+Script&family=Merriweather:wght@300;400&family=Parisienne&family=Playfair+Display&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 .container {
     margin-top: 6.3rem;
     display: grid;
@@ -34,8 +35,7 @@
     background-color: rgb(251, 241, 227);
 }
 #buttondiv button {
-    font-family: "Dosis", sans-serif;
-    font-weight: bold;
+    font-family: "Yusei Magic", sans-serif;
     height: 3.2rem;
     width: 9rem;
     cursor: pointer;
@@ -48,6 +48,7 @@
 #buttondiv button:hover {
     background-color: rgb(151, 238, 151);
     color: white;
+    font-size: 1.8rem;
 }
 #menudiv {
     margin-top: 3rem;
@@ -63,20 +64,23 @@
     display: flex;
     width: 50rem;
     height: 19rem;
-    box-shadow: 0rem 0rem 0.2rem 0.2rem rgb(240, 240, 240);
+
     padding: 0.1rem;
     gap: 0.4rem;
     border-radius: 2rem;
     background-color: rgb(251, 241, 227);
+    box-shadow: 0rem 0rem 0.5rem rgb(128, 126, 126);
 }
 .Menuitem:hover {
-    background-color: rgb(241, 222, 197);
+    background-color: #ecebe9;
+    box-shadow: 0rem 0rem 1.8rem rgb(128, 126, 126);
     cursor: pointer;
 }
 #menu_image {
     width: 25rem;
     border-radius: 2.6rem;
 }
+
 #menu_detail {
     display: flex;
     flex-direction: column;
@@ -103,24 +107,24 @@
 }
 #menu_price {
     font-size: 1.5rem;
-    font-weight: bold;
-    font-family: "Dosis", sans-serif;
+    font-family: "Yusei Magic", sans-serif;
 }
 #menu_button {
-    height: 2.8rem;
+    height: 3.4rem;
+    width: 6rem;
     cursor: pointer;
     border-style: none;
     border-radius: 2rem;
     color: #e7c70f;
     box-shadow: 0.2rem 0.2rem 0.4rem rgb(178, 180, 177);
     background-color: rgb(253, 252, 252);
-    font-family: "Dosis", sans-serif;
-
-    font-weight: bold;
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 1.6rem;
 }
 #menu_button:hover {
     background-color: rgb(151, 238, 151);
     color: white;
+    font-size: 1.9rem;
 }
 
 #menu_title {
@@ -129,11 +133,13 @@
     font-size: 1.8rem;
     font-weight: bold;
     border-bottom: 0.1rem solid rgb(216, 214, 214);
+    color: rgb(64, 63, 62);
 }
 
 #menu_desc {
-    font-size: 1.4rem;
-    font-weight: bold;
+    font-size: 1.3rem;
 
+    color: rgb(124, 122, 122);
     font-family: "Dosis", sans-serif;
+    font-family: "Yusei Magic", sans-serif;
 }

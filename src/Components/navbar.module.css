@@ -1,16 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 .navContainer {
     display: grid;
     width: 100%;
     grid-template-rows: 6.2rem;
-    grid-template-columns: 1fr 1fr 15rem;
+    grid-template-columns: 1fr 1fr 12rem;
     box-shadow: 1px 1px 3px #c9c7c7;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgb(232, 230, 235);
-    font-size: 1.8rem;
+    background-color: white;
     z-index: 2;
     opacity: 95%;
+    
 }
 
 .logo {
@@ -21,15 +22,17 @@
 }
 
 .logo h3 {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     border: 0.1rem solid;
     margin: auto 0;
     text-align: center;
-    padding: 0.2rem;
-    box-shadow: 0.2rem 0.2rem 0.5rem rgb(21, 20, 20);
+    padding: 0.3rem;
+    box-shadow: 0rem 0rem 0.5rem rgb(101, 100, 100);
     background-color: rgb(236, 162, 13);
-    border-radius: 1rem;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    border-style: none;
+    border-radius: 2rem;
+    font-family: "Yusei Magic", sans-serif;
+    color: #2b2a2a;
 }
 
 #logoimg {
@@ -40,18 +43,18 @@
     list-style: none;
     display: flex;
     justify-content: end;
+    align-items: center;
     gap: 5rem;
     margin-right: 5rem;
-    font-weight: bold;
     height: 4rem;
-    margin-top: 0;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
 }
 
 .btn {
     color: #000000;
     position: relative;
-    font-family: "Source Sans Pro", sans-serif;
+    /* font-family: "Source Sans Pro", sans-serif; */
+    font-family: "Yusei Magic", sans-serif;
 }
 
 .btn:hover {
@@ -76,20 +79,23 @@
     transform: scale(1, 1);
 }
 .cartdiv {
- 
     display: flex;
-    
 }
 #cart {
     font-size: 3rem;
     color: rgb(25, 189, 28);
+}
+
+#cart:hover {
+    color: rgb(255, 0, 0);
+    font-size: 3.5rem;
 }
 .cartlogo {
     align-self: center;
     list-style: none;
 }
 .cartdiv p {
-    background-color: rgb(232, 15, 15);
+    background-color: orangered;
     font-size: 1.2rem;
     height: 1.7rem;
     width: 1.8rem;
