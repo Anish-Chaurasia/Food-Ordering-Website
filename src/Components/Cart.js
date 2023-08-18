@@ -21,7 +21,7 @@ function Cart() {
                 </div>) :
 
 
-                    (<div className={cartstyle.notemptycart}> not empty</div>)
+                    (<div className={cartstyle.notemptycart}> <h1>working on cart page...</h1></div>)
             }
 
         </div>

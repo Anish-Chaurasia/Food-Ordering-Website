@@ -1,9 +1,12 @@
 import React from 'react'
+import style from "./about.module.css"
 
 function About() {
   return (
-    <div>
-      thi sis abobejfkjs
+    <div className={style.container}>
+   <h1>
+        Working on about page.....
+   </h1>
     </div>
   )
 }

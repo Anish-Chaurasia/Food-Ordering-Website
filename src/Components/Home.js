@@ -55,7 +55,7 @@ navigate("/menu")
   }
 
   return (
-    <div>
+    
       <div className={homestyle.container}>
 
         <div className={homestyle.trans} >
@@ -91,7 +91,7 @@ navigate("/menu")
 
 
 
-    </div>
+   
   )
 }
 

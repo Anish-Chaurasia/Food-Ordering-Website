@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+.container{
+   
+    margin-top: 6.2rem;
+    min-height: 50rem;
+       font-family: "Yusei Magic", sans-serif;
+}
+h1{
+    font-size: 2rem;
+    color: red;
+}
