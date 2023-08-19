@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+<h1>FOOD HUB - Food Ordering Website</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Description :-</h2>
+<p>Welcome to FOOD HUB  This is a food ordering website built using React.js and Redux, designed to provide a seamless and delightful experience for users to browse and order their favorite meals online. It provide  responsive user interface to the user. User can add their food item to the shopping cart and can review and edit the Item before placing the order. It Provide Real time update of State using Redux toolkit.</p>
 
-## Available Scripts
+<h2>Installation Guide :-</h2>
+<h4>1) Clone this repository to your local machine using:- </h4>
+<p> git clone https://github.com/Anish-Chaurasia/Food-Ordering-Website.git</p>
+   
+    
+<h4>2) Navigate to the project directory:- </h4>
+<p> cd Food-Ordering-Website</p>
+<h4>3) Install the required dependencies:-</h4>
+<p>npm install</p>
+<h4>4)Start the development server:-</h4>
+<p>npm start</p>
+<p>Open your browser and go to http://localhost:3000 to see the website in action.</p>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h2>Features :- </h2>
+<p>FOOD HUB comes with the following features:- </p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p>-> Browse and search for available meals.</p>
+<p>-> Add items to the shopping cart.</p>
+<p>-> Review and edit the cart before placing an order.</p>
+<p>-> Real-time updates using Redux for a seamless user experience.</p>
+<p>-> contact page where user can share their suggestions for making the FOOD HUB better.</p>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2>Technologies Used :- </h2>
+<p><b>React.js: </b>     A JavaScript library for building user interfaces.</p>
+<p><b>Redux: </b>    A predictable state container for managing application state.</p>
+<p><b>React Router: </b>     Declarative routing for React applications.</p>
+<p><b>CSS Modules: </b>     Local scoping of styles for components.</p>
+<p><b>Responsive Design: </b>     The website is designed to be usable on various devices and screen sizes.</p>
+<p><b>React Icon :-  </b> Include popular icons in React projects easily with react-icons</p>
 
-### `npm run build`
+<h2>Project Images:- </h2>
+<p>Home Page</p>
+<img  width="700px"  src="https://github.com/Anish-Chaurasia/Food-Ordering-Website/assets/95374922/969109ea-33f6-4b88-82e1-9a41a40d2d48 "/>
+<p>Menu Page</p>
+<img  width="700px"  src="https://github.com/Anish-Chaurasia/Food-Ordering-Website/assets/95374922/58926aa4-1442-4dc9-b082-f4111fbe3788 "/>
+<p>Cart Page</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img  width="700px"  src="https://github.com/Anish-Chaurasia/Food-Ordering-Website/assets/95374922/e459ff4a-bbc3-406a-aea8-87b2ef08481e "/>
+<p>Contact Page</p>
+<img  width="700px"  src="https://github.com/Anish-Chaurasia/Food-Ordering-Website/assets/95374922/ff240d4a-13f8-4a2f-84dc-8e9c9b70dd54 "/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
