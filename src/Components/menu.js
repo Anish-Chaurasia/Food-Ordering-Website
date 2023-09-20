@@ -10,7 +10,6 @@ function Menu() {
     const [menu, setMenu] = useState(data);
     const dispatch = useDispatch()
     const cartdata = useSelector(state => state.count)
-    console.log(cartdata)
     function handleMenu(val) {
         if (val === "All") {
             setMenu(data)

@@ -26,7 +26,7 @@ function Contact() {
       <div className={style.item} id={style.rigtsideitem}>
         <h4>“Good food is the foundation of genuine happiness” – <span>Auguste Escoffier</span></h4>
         <div id={style.form}>
-          <input className={style.forminput} type='text' placeholder='Name'></input>
+          <input className={style.forminput}  type='text' placeholder='Name'></input>
           <input className={style.forminput} type='email' placeholder='Email'></input>
           <input className={style.forminput} type='text' placeholder='Subject'></input>
           <textarea  id={style.message}type='text' placeholder='Message'></textarea>

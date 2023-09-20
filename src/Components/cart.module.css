@@ -37,13 +37,128 @@
     box-shadow: 0 0 2rem rgb(101, 99, 99);
 }
 
-.emptycart button:hover{
-   box-shadow: none;
-   font-size:1.7rem ;
+.emptycart button:hover {
+    box-shadow: none;
+    font-size: 1.7rem;
 }
 
-.notemptycart h1{
+.notemptycart {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+.leftCart {
+    width: 70%;
+    background-color: rgb(253, 253, 253);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+}
 
-font-size: 2rem;
+.rightCart {
+    width: 30%;
+    padding: 3rem;
+    background-color: #f1f1f1;
+}
+#header {
+    border-bottom: 0.1rem solid rgb(193, 188, 188);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header h1 {
+    color: black;
+    font-size: 2.3rem;
+}
+#cartable,
+tr,
+th,
+td {
+    border-collapse: collapse;
+    text-align: center;
+}
+tr {
+    width: 100%;
+    height: auto;
+}
+td {
+    padding: 0.5rem;
+}
+th {
+    color: rgb(92, 91, 91);
+    font-size: 1.2rem;
+}
+
+td,
+th {
+    width: 10rem;
+    height: 10rem;
+}
+tr {
+    font-size: 1.1rem;
+    /* border-bottom: .1rem solid; */
+}
+
+#product_details {
+    display: flex;
+    width: 100%;
+}
+#product_details div {
+    width: 50%;
+}
+#product_details img {
+    width: 100%;
+    height: 100%;
+}
+#name_btn {
+    text-align: center;
+}
+
+#name_btn p {
+    font-size: 1.1rem;
+}
+#name_btn button {
+    background: none;
+    border-style: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
     color: red;
+}
+#name_btn button:hover {
+    font-size: 1.2rem;
+    color: rgb(41, 189, 83);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(244, 244, 244);
+}
+#quantity {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quantity button {
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+
+}
+#quantity button :hover{
+    color: red;
+    font-size: 2rem;
+}
+#quantity p {
+    border: 0.1rem solid rgb(195, 192, 192);
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
