@@ -10,7 +10,8 @@ function Footer() {
   return (
     <footer className={ftrstyle.footer}>
       <div className={ftrstyle.item} id={ftrstyle.div1} >
-        <div className={ftrstyle.div1item}><h4>About us</h4>
+        <div className={ftrstyle.div1item}>
+          <h4>About us</h4>
           <a href='#'>Who we Are</a>
           <a href='#'>Services</a>
           <a href='#'>Outlets</a>
@@ -35,9 +36,7 @@ function Footer() {
 
 
       </div>
-      <div className={ftrstyle.item} id={ftrstyle.div2}><p>&copy; 2023 <strong>FOOD HUB</strong>  All rights reserved</p>
-        <p>Developed by <strong>Anish</strong></p>
-      </div>
+
 
       <div className={ftrstyle.item} id={ftrstyle.div3}>
         <div id={ftrstyle.logo}>
@@ -55,6 +54,9 @@ function Footer() {
           <a href="#"><TwitterIcon fontSize="large" /></a>
           <a href='#'><InstagramIcon fontSize="large" /></a>
         </div>
+      </div>
+      <div className={ftrstyle.item} id={ftrstyle.div2}><p>&copy; 2023 <strong>FOOD HUB</strong>  All rights reserved</p>
+        <p>Developed by <strong>Anish</strong></p>
       </div>
 
 

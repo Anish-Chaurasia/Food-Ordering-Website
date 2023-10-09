@@ -18,9 +18,10 @@
 }
 
 #contact {
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 4rem;
 }
 .contact_item {
     display: flex;
@@ -55,8 +56,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    /* box-shadow: 0rem 0rem .6rem grey;
-    padding: 2rem; */
+    
 }
 
 .forminput {
@@ -88,7 +88,7 @@
     font-family: "Yusei Magic", sans-serif;
     border-radius: 2rem;
     font-size: 1.6rem;
-        box-shadow: 0 0 2rem rgb(101, 99, 99);
+    box-shadow: 0 0 2rem rgb(101, 99, 99);
 }
 #form button:hover {
     font-size: 1.8rem;
@@ -97,11 +97,68 @@
 
 @media screen and (max-width: 480px) {
     .container {
+        margin-top: 9rem;
+        width: 100vw;
         display: block;
     }
-    .item {
-   
-    padding: 0;
-}
-}
 
+    .item {
+        width: 100vw;
+        padding: 3rem;
+    }
+
+    #contact img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    #contact {
+        
+        gap: 4rem;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .contact_item p {
+        font-size: 1.7rem;
+    }
+
+    #rigtsideitem {
+        gap: 5rem;
+         
+         background-color: rgb(244, 244, 244);
+    }
+    #rigtsideitem h4 {
+        font-size: 2rem;
+    }
+
+    #form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      
+    }
+
+    .forminput {
+        width: 70%;
+        font-size: 2.1rem;
+    }
+    .forminput:focus {
+        outline: none;
+    }
+
+    #message {
+        height: 14rem;
+        width: 90%;
+        font-size: 2.1rem;
+    }
+    #message:focus {
+        outline: none;
+    }
+    #form button {
+        width: 10rem;
+        height: 4.5rem;
+        border-radius: 5rem;
+        font-size: 1.8rem;
+    }
+   
+}

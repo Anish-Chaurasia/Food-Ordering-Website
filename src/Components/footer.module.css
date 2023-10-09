@@ -1,6 +1,7 @@
 .footer {
-    width: 100%;
-    height: 20rem;
+    width: 100vw;
+    min-height: 20rem;
+    height: auto;
     position: absolute;
     left: 0;
     right: 0;
@@ -12,11 +13,12 @@
     font-family: "Open Sans", sans-serif;
     color: rgb(73, 75, 74);
     box-shadow: 1px 1px 3px #8a8888;
-    
 }
 
 #logo {
+   
     display: flex;
+    align-items: center;
     gap: 0.5rem;
     height: fit-content;
     align-self: center;
@@ -32,6 +34,7 @@
     border: 1px solid;
     text-align: center;
     padding: 0.2rem;
+    height: 70%;
     box-shadow: 0.2rem 0.2rem 0.5rem rgb(21, 20, 20);
     border-radius: 1rem;
     background-color: rgb(236, 162, 13);
@@ -53,12 +56,17 @@
     border: none;
     width: 15rem;
     box-shadow: 0.2rem 0.2rem 1rem rgb(0, 0, 0);
+    padding-left: 1rem;
 }
 
+.help input:focus{
+    outline: none;
+}
 .help h2 {
     position: relative;
     left: 71%;
-    top: 0.3rem;
+    top: 33%;
+
 }
 
 .help:hover {
@@ -71,6 +79,7 @@
     height: fit-content;
     justify-content: end;
     gap: 1rem;
+    
 }
 
 #ftrcontact {
@@ -90,11 +99,16 @@
     gap: 2rem;
     padding-left: 2rem;
     color: rgb(73, 75, 74);
+    margin-top: 2rem;   
 }
 
 #div1 a {
+    margin-top: .8rem;
     text-decoration: none;
     color: rgb(116, 112, 112);
+}
+#div1 a:hover{
+    color: rgb(190, 217, 35);
 }
 
 .div1item {
@@ -103,27 +117,100 @@
 }
 #div2 {
     text-align: center;
-    align-self: end;
+    align-self: flex-start;
+    height:fit-content;
+    margin-top: 2rem;
     font-size: 1.2rem;
-   
+    
 }
 
 @media only screen and (max-width: 480px) {
     .footer {
-        height: 42.6rem;
-        width: fit-content;
+        width: 100vw;
+        height: auto;
+        font-size: 1.8rem;
+        display: block;
+        margin-top: 1rem;
+        color: rgb(73, 75, 74);
+        box-shadow: none;
     }
-    .help input {
-        font-size: 1.5rem;
+
+    #div3 {
+        justify-content: space-around;
     }
-    .help h2 {
-        left: 75%;
-        top: 0.4rem;
+
+    #logo {
+        display: flex;
+        gap: 0.5rem;
+        height: fit-content;
+        align-items: center;
+        opacity: 90%;
     }
+
+    #logo img {
+        width: 5.2rem;
+    }
+
     #logo h3 {
-        width: max-content;
+        height: 50%;
+        border: none;
+        color: black;
+        border-radius: 5rem;
+        background-color: rgb(236, 162, 13);
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+
+    .help {
+        font-size: 1.8rem;
+        color: orangered;
+        display: flex;
+        width: 20rem;
+        height: 8rem;
+    }
+
+    .help input {
+        height: 3.5rem;
+        box-shadow: none;
+        background-color: rgb(236, 235, 235);
+        font-size: 1.6rem;
+        padding-left: 1.5rem;
+    }
+    .help input:focus {
+        outline: none;
+    }
+
+    .help h2 {
+        display: none;
+    }
+
+    .help:hover {
+        color: rgba(105, 205, 38, 0.793);
+        cursor: pointer;
+    }
+
+    #ftrcontact a {
+        width: 3.5rem;
+        color: rgb(73, 75, 74);
+    }
+    #ftrcontact a:hover {
+        color: rgb(19, 212, 154);
+    }
+
+    #div1 {
+        margin-top: 1.5rem;
+        gap: 2rem;
+        padding-left: 0;
+        justify-content: space-evenly;
+    }
+
+    .div1item h4 {
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    .div1item a:hover {
+        color: rgb(211, 211, 21) !important;
     }
     #div2 {
-        width: max-content;
+        margin-bottom: 1.5rem;
     }
 }

@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 .navContainer {
-    display: grid;
-    width: 100%;
-    grid-template-rows: 6.2rem;
-    grid-template-columns: 1fr 1fr 12rem;
+    display: flex;
+    width: 100vw;
+    height: 6.5rem;
+    justify-content: space-between;
     box-shadow: 1px 1px 3px #c9c7c7;
     position: fixed;
     top: 0;
@@ -18,11 +18,17 @@
     gap: 0.5rem;
     margin-left: 3rem;
     cursor: pointer;
+    height: 100%;
+}
+.navitemdiv2 {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+    height: 100%;
 }
 
 .logo h3 {
     font-size: 1.4rem;
-    border: 0.1rem solid;
     margin: auto 0;
     text-align: center;
     padding: 0.3rem;
@@ -35,14 +41,12 @@
 }
 
 #logoimg {
-    width: 7.3rem;
+    height: 100%;
 }
 
 .navitem {
     list-style: none;
     display: flex;
-    justify-content: end;
-    align-items: center;
     gap: 5rem;
     margin-right: 5rem;
     height: 4rem;
@@ -62,8 +66,7 @@
     height: 0.3rem;
     left: 0;
     bottom: 0;
-
-    background-color:red;
+    background-color: red;
     transform: scale(0, 1);
     transition: transform 0.3s ease-in-out;
 }
@@ -73,7 +76,10 @@
 }
 .cartdiv {
     display: flex;
+    position: relative;
+    width: 5.5rem;
 }
+
 #cart {
     font-size: 3rem;
     color: rgb(25, 189, 28);
@@ -97,16 +103,111 @@
     border-radius: 50%;
     color: rgb(255, 255, 255);
     display: flex;
+    position: absolute;
+    bottom: 70%;
+    left: 60%;
 }
 
 @media only screen and (max-width: 480px) {
     .navContainer {
-        grid-template-rows: 8rem;
+        height: 8rem;
+        opacity: 100%;
     }
-    .navitem {
-        align-items: center;
-    }
+
     .logo {
+        display: flex;
+        gap: 0rem;
+        width: 40%;
+        margin-left: 0rem;
+        height: 100%;
+        justify-content: space-around;
+       
+    }
+    .navitemdiv2 {
+        
+        display: flex;
+        margin-right: 3rem;
+        height: 100%;
+    }
+
+    .logo h3 {
+        font-size: 2.3rem;
+        width: 50%;
+        height: 40%;
+        display: flex;
+        gap: .5rem;
+        justify-content: center;
         align-items: center;
+        box-shadow: none;
+        background: none;
+
+    }
+    .logo h3 span{
+        color: red;
+        
+    }
+
+    #logoimg {
+        height: 100%;
+    }
+
+    .navitem {
+        list-style: none;
+        display: flex;
+        gap: 5rem;
+        margin-right: 5rem;
+        height: 4rem;
+        font-size: 1.8rem;
+        display: none;
+    }
+
+    .btn {
+        color: #000000;
+        position: relative;
+        font-family: "Yusei Magic", sans-serif;
+    }
+
+    .btn::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 0.3rem;
+        left: 0;
+        bottom: 0;
+        background-color: red;
+        transform: scale(0, 1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .btn:hover::after {
+        transform: scale(1, 1);
+    }
+    .cartdiv {
+        display: flex;
+        width: 8rem;
+    }
+    #cart {
+        font-size: 4rem;
+        color: rgb(25, 189, 28);
+    }
+
+    #cart:hover {
+        color: rgb(255, 0, 0);
+        font-size: 3.5rem;
+    }
+    .cartlogo {
+        align-self: center;
+        list-style: none;
+    }
+    .cartdiv p {
+        background-color: orangered;
+        font-size: 1.2rem;
+        height: 1.7rem;
+        width: 1.8rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: rgb(255, 255, 255);
+        display: flex;
     }
 }

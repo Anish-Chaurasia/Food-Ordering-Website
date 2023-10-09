@@ -143,3 +143,134 @@
     font-family: "Dosis", sans-serif;
     font-family: "Yusei Magic", sans-serif;
 }
+
+@media only screen and (max-width: 480px) {
+    .container {
+      
+        margin-top: 8.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .container img {
+        width: 50%;
+        padding: 0.3rem;
+    }
+   
+    #text {
+        font-size: 5rem;
+        padding: 2rem;
+        color: #edcb0b;
+    }
+    #buttondiv {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.2rem;
+        height: auto;
+        width: 100vw;
+        border-radius: 0;
+        background-color: rgb(222, 222, 222);
+    }
+    #buttondiv button {
+        height: 3.5rem;
+        width: 15rem;
+        color: #e7c70f;
+    }
+    #buttondiv button:hover {
+        font-size: 2.1rem;
+    }
+    #menudiv {
+      
+        margin-top: 3rem;
+        display: flex;
+        padding: 0.5rem;
+        flex-wrap: wrap;
+        row-gap: 6rem;
+        min-height: 50rem;
+        justify-content: space-evenly;
+        column-gap: 3rem;
+    }
+    .Menuitem {
+        display: flex;
+        width: 95%;
+        min-height: 20rem;
+        height: auto;
+
+        padding: 0rem;
+        gap: 0.4rem;
+        border-radius: 0rem;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0rem 0rem 0.5rem rgb(128, 126, 126);
+    }
+    .Menuitem:hover {
+        background-color: #ecebe9;
+        box-shadow: 0rem 0rem 1.8rem rgb(128, 126, 126);
+        cursor: pointer;
+    }
+    #menu_image {
+       
+        border-radius:0rem;
+    }
+
+    #menu_detail {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0.9rem;
+       
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+    
+    .price_button {
+     
+        display: flex;
+        justify-content: space-between;
+        height: 5rem;
+        align-items: center;
+        padding: 2rem;
+        border-top: 0.1rem solid rgb(216, 214, 214);
+    }
+    .price_button h1 {
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+    #menu_price {
+        font-size: 1.5rem;
+        font-family: "Yusei Magic", sans-serif;
+    }
+    #menu_button {
+        height: 3.4rem;
+        width: 7rem;
+        cursor: pointer;
+        border-style: none;
+      
+        color: #e7c70f;
+        box-shadow: 0.2rem 0.2rem 0.4rem rgb(178, 180, 177);
+        background-color: rgb(253, 252, 252);
+        font-family: "Yusei Magic", sans-serif;
+        font-size: 1.6rem;
+    }
+    #menu_button:hover {
+        background-color: rgb(151, 238, 151);
+        color: white;
+        font-size: 1.9rem;
+    }
+
+    #menu_title {
+       
+        font-size: 2rem;
+    
+       
+    }
+
+    #menu_desc {
+        font-size: 1.4rem;
+
+        color: rgb(124, 122, 122);
+        font-family: "Dosis", sans-serif;
+        font-family: "Yusei Magic", sans-serif;
+    }
+}

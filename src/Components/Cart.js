@@ -8,8 +8,23 @@ import { removecart, countminus, countplus } from '../cartaddremove';
 function Cart() {
     const navigate = useNavigate()
     const cartlist = useSelector(state => state.count)
+
     const dispatch = useDispatch()
-    console.log(cartlist)
+    let totalprice = 0;
+    let tax = 0
+    let total = 0
+
+    if (cartlist.length >= 0) {
+
+        cartlist.forEach(item => {
+
+            totalprice = totalprice + (item.quantity * item.price)
+            tax = (totalprice * 5) / 100
+            total = totalprice + tax
+        });
+    }
+
+
     const cartlenth = cartlist.length
     return (
         <div className={cartstyle.container}>
@@ -57,8 +72,8 @@ function Cart() {
 
                                                     </div>
                                                 </td>
-                                                <td> {item.price} Rs</td>
-                                                <td>{item.quantity * item.price} Rs</td>
+                                                <td id={cartstyle.price}> {item.price} Rs</td>
+                                                <td id={cartstyle.total}>{item.quantity * item.price} Rs</td>
                                             </tr>
 
                                         )
@@ -70,10 +85,28 @@ function Cart() {
                         </div>
                         <div className={cartstyle.rightCart}>
                             <div id={cartstyle.header}>
-                                <h1>Order Summary
-
-                                </h1>
+                                <h1>Order Summary</h1>
                             </div>
+                            <table className={cartstyle.totaldetail}>
+                                <tr>
+                                    <th>SUBTOTAL</th>
+                                    <td>{totalprice} Rs
+
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th>TAX</th>
+                                    <td>{tax} Rs</td>
+                                </tr>
+                                <tr>
+                                    <th>ORDER TOTAL</th>
+                                    <td>{total} Rs</td>
+                                </tr>
+                                <button onClick={() => navigate("/menu")}>CONTINUE SHOPPING</button>
+                                <button>PLACE ORDER</button>
+
+                            </table>
                             <div>
 
                             </div>

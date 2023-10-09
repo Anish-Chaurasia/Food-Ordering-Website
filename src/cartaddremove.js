@@ -1,5 +1,55 @@
 import { createSlice } from "@reduxjs/toolkit";
-const initialState = []
+const initialState = [{
+    id: 8,
+    title: 'Gulaab-Jaamun',
+    category: 'Desert',
+    price: 20,
+    img: './images/menu_images/menu/gulabjamun.jpg',
+    desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+}, {
+        id: 8,
+        title: 'Gulaab-Jaamun',
+        category: 'Desert',
+        price: 20,
+        img: './images/menu_images/menu/gulabjamun.jpg',
+        desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+    }, {
+        id: 8,
+        title: 'Gulaab-Jaamun',
+        category: 'Desert',
+        price: 20,
+        img: './images/menu_images/menu/gulabjamun.jpg',
+        desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+    }, {
+        id: 8,
+        title: 'Gulaab-Jaamun',
+        category: 'Desert',
+        price: 20,
+        img: './images/menu_images/menu/gulabjamun.jpg',
+        desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+    }, {
+        id: 8,
+        title: 'Gulaab-Jaamun',
+        category: 'Desert',
+        price: 20,
+        img: './images/menu_images/menu/gulabjamun.jpg',
+        desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+    }, 
+    {
+        id: 8,
+        title: 'Gulaab-Jaamun',
+        category: 'Desert',
+        price: 20,
+        img: './images/menu_images/menu/gulabjamun.jpg',
+        desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+    }, {
+    id: 8,
+    title: 'Gulaab-Jaamun',
+    category: 'Desert',
+    price: 20,
+    img: './images/menu_images/menu/gulabjamun.jpg',
+    desc: "Gulab jamun is among India's most popular desserts and is often referred to as Indian doughnuts. This delicious sweet treat consists of soft, melt-in-your-mouth.",
+},]
 
 const cartaddremove = createSlice(
     {
